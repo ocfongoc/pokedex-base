@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="borderline left">
+      <div class="border left">
         <div class="ball-inner left"></div>
         <div class="ball-outer left"></div>
       </div>
@@ -16,7 +16,19 @@
         <div class="main-inner">
           <div class="content">
             <div class="pokemon-detail">
-              <div>ポケモンずかん</div>
+              <form class="form">
+                <div class="input-group">
+                  <label for="name">なまえ</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="ポケモンのなまえは?"
+                  />
+                </div>
+
+                <!-- Submit Button -->
+                <button class="btn" type="submit">おわる</button>
+              </form>
             </div>
           </div>
           <div class="sidebar">
@@ -38,13 +50,9 @@
           </div>
         </div>
       </div>
-      <div class="borderline right">
-        <div class="ball-inner right">
-          <img class="add" src="./assets/plus.svg" width="70px" height="70px" />
-        </div>
-        <div class="ball-outer right">
-         
-        </div>
+      <div class="border right">
+        <div class="ball-inner right"></div>
+        <div class="ball-outer right"></div>
       </div>
     </div>
   </body>
